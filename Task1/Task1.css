@@ -1,0 +1,50 @@
+*{
+    background-color: #f3f3f3;
+}
+
+header .brand{
+    color: blue;
+    text-align: center;
+}
+
+header #summary{
+    font-style: italic;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+input[type="password"]{
+    border: 2px solid red;
+}
+
+.box>p{
+    font-weight: bold;
+}
+
+div+p{
+    color: green;
+}
+
+.box~p{
+    color: orange;
+}
+
+ul li:first-child{
+    text-decoration: underline blue;
+}
+
+.quote::before{
+    content: "--> ";
+}
+
+div[class~="important"]{
+
+    border: 2px solid black;
+}
+
+b{
+    color: red;
+    font-weight: bold;
+}

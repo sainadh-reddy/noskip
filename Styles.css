@@ -1,0 +1,120 @@
+/* #SRH li::marker{
+    color: orange;
+}
+
+#CSK li::marker {
+    color: rgb(220, 235, 16);
+}
+
+#RCB li::marker {
+    color: rgb(251, 88, 88);
+}
+
+#MI li::marker {
+    color: rgb(12, 9, 168);
+}
+
+#PBKS li::marker {
+    color: rgb(249, 10, 10);
+}
+
+#RR li::marker {
+    color: rgb(243, 104, 175);
+}
+
+#DC li::marker {
+    color: rgb(119, 0, 255);
+}
+
+#GT li::marker {
+    color: rgb(0, 145, 255);
+}
+
+#KKR li::marker {
+    color: rgb(162, 0, 255);
+}
+
+#LSG li::marker {
+    color: rgb(153, 0, 255);
+}
+
+#if{
+    height: 500px;
+    width: 50%;
+}
+
+.container{
+    background-color: red;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20PX;
+    display: flex;
+    height: 150px;
+    width: 150px;
+}
+ .container P{
+    color: blue;
+ } */
+
+
+/* General Card Styling */
+/* General Card Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* Allows wrapping if screen is small */
+}
+
+div[class^="card"] {
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    font-size: 18px;
+    /* transition: transform 0.3s, box-shadow 0.3s; */
+    text-align: center;
+    padding: 15px;
+}
+
+div[class^="card"]:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+div[class^="card1"] img{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    display: flex;
+    border-radius: 10px;
+}
+
+/* Specific Card Colors */
+.card1 {
+    background-color: #4CAF50;
+}
+
+.card2 {
+    background-color: #2196F3;
+}
+
+.card3 {
+    background-color: #FF9800;
+}
+
+.card4 {
+    background-color: #9C27B0;
+}

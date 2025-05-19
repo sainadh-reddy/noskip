@@ -1,0 +1,159 @@
+body{
+    background-color: rgb(204, 200, 200);
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    border: 2px;
+    margin: 20px;
+    padding: 20px;
+}
+
+[class^="col"]{
+    display: flex;
+}
+
+.col-1 .left{
+    height: 40px;
+    width: 10%;
+    background-color: orange;
+    margin: 2px 1px 2px 1px;
+    align-content: center;
+    text-align: center;
+}
+
+.col-1 .right{
+    height: 40px;
+    width: 100%;
+    background-color: orange;
+    margin: 2px 1px 2px 1px;
+    align-content: center;
+    text-align: center;
+}
+
+.col-2 .left {
+    height: 40px;
+    width: 20%;
+    background-color: orange;
+    margin: 2px 1px 2px 1px;
+    align-content: center;
+    text-align: center;
+}
+
+.col-2 .right {
+    height: 40px;
+    width: 100%;
+    background-color: orange;
+    margin: 2px 1px 2px 1px;
+    align-content: center;
+    text-align: center;
+}
+
+.col-3 .left {
+    height: 40px;
+    width: 35%;
+    background-color: orange;
+    margin: 2px 1px 2px 1px;
+    align-content: center;
+    text-align: center;
+}
+
+.col-3 .right {
+    height: 40px;
+    width: 100%;
+    background-color: orange;
+    margin: 2px 1px 2px 1px;
+    align-content: center;
+    text-align: center;
+}
+
+.col-4 .left {
+    height: 40px;
+    width: 50%;
+    background-color: orange;
+    margin: 2px 1px 2px 1px;
+    align-content: center;
+    text-align: center;
+}
+
+.col-4 .right {
+    height: 40px;
+    width: 100%;
+    background-color: orange;
+    margin: 2px 1px 2px 1px;
+    align-content: center;
+    text-align: center;
+}
+
+.col-5 .left {
+    height: 40px;
+    width: 70%;
+    background-color: orange;
+    margin: 2px 1px 2px 1px;
+    align-content: center;
+    text-align: center;
+}
+
+.col-5 .right {
+    height: 40px;
+    width: 100%;
+    background-color: orange;
+    margin: 2px 1px 2px 1px;
+    align-content: center;
+    text-align: center;
+}
+
+.col-6 .left {
+    height: 40px;
+    width: 100%;
+    background-color: orange;
+    margin: 2px 1px 2px 1px;
+    align-content: center;
+    text-align: center;
+}
+
+.col-6 .right {
+    height: 40px;
+    width: 100%;
+    background-color: orange;
+    margin: 2px 1px 2px 1px;
+    align-content: center;
+    text-align: center;
+}
+
+.col-7 .left {
+    height: 40px;
+    width: 140%;
+    background-color: orange;
+    margin: 2px 1px 2px 1px;
+    align-content: center;
+    text-align: center;
+}
+
+.col-7 .right {
+    height: 40px;
+    width: 100%;
+    background-color: orange;
+    margin: 2px 1px 2px 1px;
+    align-content: center;
+    text-align: center;
+}
+
+.col-8 .left {
+    height: 40px;
+    width: 200%;
+    background-color: orange;
+    margin: 2px 1px 2px 1px;
+    align-content: center;
+    text-align: center;
+}
+
+.col-8 .right {
+    height: 40px;
+    width: 100%;
+    background-color: orange;
+    margin: 2px 1px 2px 1px;
+    align-content: center;
+    text-align: center;
+}

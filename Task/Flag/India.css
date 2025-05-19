@@ -1,0 +1,150 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.flag {
+    height: 150px;
+    width: 250px;
+    border: 1px solid black;
+}
+
+.safron {
+    height: 50px;
+    width: 100%;
+    background-color: orange;
+}
+
+.white {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green {
+    height: 50px;
+    width: 100%;
+    background-color: green;
+}
+
+.chakra {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.chakra hr {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: blue;
+    border: none;
+}
+
+/* Creating 24 spokes */
+.chakra hr:nth-child(1) {
+    transform: rotate(0deg);
+}
+
+.chakra hr:nth-child(2) {
+    transform: rotate(15deg);
+}
+
+.chakra hr:nth-child(3) {
+    transform: rotate(30deg);
+}
+
+.chakra hr:nth-child(4) {
+    transform: rotate(45deg);
+}
+
+.chakra hr:nth-child(5) {
+    transform: rotate(60deg);
+}
+
+.chakra hr:nth-child(6) {
+    transform: rotate(75deg);
+}
+
+.chakra hr:nth-child(7) {
+    transform: rotate(90deg);
+}
+
+.chakra hr:nth-child(8) {
+    transform: rotate(105deg);
+}
+
+.chakra hr:nth-child(9) {
+    transform: rotate(120deg);
+}
+
+.chakra hr:nth-child(10) {
+    transform: rotate(135deg);
+}
+
+.chakra hr:nth-child(11) {
+    transform: rotate(150deg);
+}
+
+.chakra hr:nth-child(12) {
+    transform: rotate(165deg);
+}
+
+.chakra hr:nth-child(13) {
+    transform: rotate(180deg);
+}
+
+.chakra hr:nth-child(14) {
+    transform: rotate(195deg);
+}
+
+.chakra hr:nth-child(15) {
+    transform: rotate(210deg);
+}
+
+.chakra hr:nth-child(16) {
+    transform: rotate(225deg);
+}
+
+.chakra hr:nth-child(17) {
+    transform: rotate(240deg);
+}
+
+.chakra hr:nth-child(18) {
+    transform: rotate(255deg);
+}
+
+.chakra hr:nth-child(19) {
+    transform: rotate(270deg);
+}
+
+.chakra hr:nth-child(20) {
+    transform: rotate(285deg);
+}
+
+.chakra hr:nth-child(21) {
+    transform: rotate(300deg);
+}
+
+.chakra hr:nth-child(22) {
+    transform: rotate(315deg);
+}
+
+.chakra hr:nth-child(23) {
+    transform: rotate(330deg);
+}
+
+.chakra hr:nth-child(24) {
+    transform: rotate(345deg);
+}

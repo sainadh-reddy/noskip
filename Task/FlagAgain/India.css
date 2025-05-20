@@ -1,53 +1,52 @@
-body {
+body{
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: white;
 }
 
-.flag {
+.flag{
     height: 150px;
     width: 250px;
     border: 1px solid black;
+    position: relative;
 }
 
-.safron {
+.safron{
     height: 50px;
     width: 100%;
     background-color: orange;
 }
 
-.white {
+.white{
     height: 50px;
     width: 100%;
     background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.green {
+.green{
     height: 50px;
     width: 100%;
     background-color: green;
 }
 
-.chakra {
+.chakra{
     height: 50px;
     width: 50px;
-    border-radius: 50%;
     border: 2px solid blue;
+    border-radius: 50%;
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    top: 33%;
+    left: 38%;
 }
 
 .chakra hr {
     position: absolute;
     width: 100%;
-    height: 2px;
+    height: 1px;
     background-color: blue;
 }
 
@@ -100,7 +99,7 @@ body {
     transform: rotate(165deg);
 }
 
-.chakra hr:nth-child(13) {
+/* .chakra hr:nth-child(13) {
     transform: rotate(180deg);
 }
 
@@ -146,4 +145,4 @@ body {
 
 .chakra hr:nth-child(24) {
     transform: rotate(345deg);
-}
+} */

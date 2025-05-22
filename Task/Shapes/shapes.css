@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.square{
+    height: 850px;
+    width: 850px;
+    background-color: beige;
+    color: brown;
+    border-left: 5px solid aqua;
+    border-bottom: 5px dotted blue;
+    border-right:5px double yellow; 
+    border-top: 5px dashed peru;
+    align-content: center;
+    font-size: xx-large;
+}
+
+.square:hover{
+    background-color: brown;
+    color: beige;
+}
+
+.rectangle {
+    height: 750px;
+    width: 500px;
+    background-color: bisque;
+    color: peru;
+    border-left: 5px solid aqua;
+    border-bottom: 5px dotted blue;
+    border-right: 5px double yellow;
+    border-top: 5px dashed peru;
+    align-content: center;
+}
+
+.rectangle:hover {
+    background-color: peru;
+    color: bisque;
+}
+
+.ellipse {
+    height: 375px;
+    width: 450px;
+    border-radius: 50%;
+    background-color: azure;
+    color: darkred;
+    border-left: 5px solid aqua;
+    border-bottom: 5px dotted blue;
+    border-right: 5px double yellow;
+    border-top: 5px dashed peru;
+    align-content: center;
+}
+
+.ellipse:hover {
+    background-color: darkred;
+    color: azure;
+}
+
+.circle {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color:cornflowerblue;
+    color: whitesmoke;
+    border-left: 5px solid aqua;
+    border-bottom: 5px dotted blue;
+    border-right: 5px double yellow;
+    border-top: 5px dashed peru;
+    align-content: center;
+}
+
+.circle:hover {
+    background-color: whitesmoke;
+    color: cornflowerblue;
+}

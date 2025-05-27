@@ -1,0 +1,373 @@
+header{
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+header .logo img{
+    width: 100px;
+}
+
+header .media{
+    display: flex;
+    gap: 20px;
+}
+
+header .btn{
+    background-color: black;
+    color: white;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    align-items: center;
+}
+
+footer ul{
+    display: flex;
+    gap: 20px;
+}
+
+footer .back-btn{
+    height: 20px;
+    background-color: black;
+    border: none;
+    border-radius: 2px;
+}
+
+footer .back-btn i{
+    color: white;
+}
+
+.section {
+    padding: 30px;
+    display: flex;
+    background: #f9f9f9;
+    flex-direction: column;
+    align-items: center;
+}
+
+.featured-card {
+    display: flex;
+    width: 90%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 4px;
+}
+
+.featured-card img {
+    width: 50%;
+    object-fit: cover;
+    border-radius: 10px;
+    padding: 10px;
+    height: 200px;
+}
+
+
+.featured-card .description {
+    padding: 20px;
+}
+
+.featured-card .tag {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 10px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    background-color: #f3e8ff;
+    color: #7e22ce;
+}
+
+.featured-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.featured-card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.featured-card .meta {
+    font-size: 12px;
+    color: #888;
+}
+
+.small-cards {
+    display: flex;
+    gap: 20px;
+    width: 90%;
+    padding: 10px;
+}
+
+.card {
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.card img {
+    padding: 10px;
+    width: 120px;
+    object-fit: cover;
+}
+
+.card .description {
+    padding: 10px;
+}
+
+.card .tag {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 20px;
+    margin-bottom: 3px;
+}
+
+.card .tag.technology {
+    background-color: #e0f2fe;
+    color: #0284c7;
+}
+
+.card .tag.travel {
+    background-color: #dcfce7;
+    color: #16a34a;
+}
+
+.card h3 {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #222;
+}
+
+.card .meta {
+    display: flex;
+    height: 40px;
+    align-items: end;
+    font-size: 11px;
+    color: #777;
+}
+
+.category-section {
+    text-align: center;
+    padding: 30px;
+}
+
+.category-section h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.category-section p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.category-tabs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 40px;
+}
+
+.category-tabs button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 999px;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.category-tabs button:hover {
+    background-color: #ddd;
+}
+
+.category-tabs button:first-child {
+    background-color: #000;
+    color: white;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.category-card {
+    background-color: #f9f9f9;
+    max-width: 250px;
+    border-radius: 16px;
+    padding: 16px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+    text-align: left;
+}
+
+.category-card img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.category-card h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.category-card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.meta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #555;
+    gap: 10px;
+    align-items: center;
+}
+
+.meta .badge {
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 12px;
+    background-color: #e0f2fe;
+    color: #0284c7; 
+}
+
+.category-section .cat-btn{
+    margin-top: 25px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.newsletter{
+    background: #f9f9f9;
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter .news-section{
+    width: 80%;
+    background-color: white;
+    display: flex;
+    padding: 30px;
+    margin: 25px;
+    border-radius: 15px;
+    justify-content: space-evenly;
+}
+.news-section form{
+    align-content: center;
+}
+
+.news-section form input{
+    height: 20px;
+    width: 60%;
+    margin-right: 10px;
+}
+
+.news-section form button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.authors {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.author-meta{
+    display: flex;
+    justify-content: space-between;
+}
+
+.author-meta h3{
+    margin: 0;
+    margin-left: 100px;
+}
+
+.author-meta span{
+    margin-right: 100px;
+}
+
+.authors hr {
+    margin: 15px 0 25px;
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+}
+
+.author-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.author-card {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    padding: 15px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    min-width: 250px;
+    gap: 15px;
+}
+
+.author-card img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+}
+
+.author-card .name {
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 0 4px;
+}
+
+.author-card .desc {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}

@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 50px;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-weight: bold;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.intro-text {
+    max-width: 70%;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.btn-black {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    padding: 0.6rem 1rem;
+    border: none;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.services .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: #f9f9f9;
+}
+
+.services h3 span {
+    background: yellow;
+    border-radius: 50%;
+    padding: 0.3rem 0.7rem;
+    margin-right: 0.5rem;
+}
+
+.team {
+    display: flex;
+    gap: 1rem;
+    margin-top: 50px;
+}
+
+.team-member {
+    flex: 1;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: -40px;
+    left: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.team-member.blue {
+    background-color: #dceeff;
+    position: relative;
+}
+
+.team-member.yellow {
+    background-color: #fff5d9;
+    position: relative;
+}
+
+.contact {
+    margin-top: 2rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.contact form {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap: 0.7rem;
+}
+
+.contact .input
+{
+    display: flex;
+    width: 100%;
+}
+
+.input input
+{
+    width: 50%;
+    margin: 4px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.contact textarea{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.btn-purple {
+    background-color: #6c47ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.7rem 1rem;
+    cursor: pointer;
+    align-self: flex-start;
+}

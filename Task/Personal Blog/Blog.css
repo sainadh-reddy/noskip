@@ -19,6 +19,50 @@ body {
     background: #fff;
     border-bottom: 1px solid #ddd;
     align-items: center;
+    /* animation */
+    animation-name: slideDown;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+@keyframes slideDown {
+    from{
+        transform: translateY(-100%);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideRight {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
 }
 
 .navbar .logo {
@@ -45,6 +89,11 @@ body {
 
 .intro-text {
     max-width: 70%;
+    /* animation */
+        animation-name: slideRight;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease;
 }
 
 .profile-img {
@@ -52,6 +101,11 @@ body {
     width: 80px;
     height: 80px;
     object-fit: cover;
+    /* animation */
+        animation-name: slideLeft;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease;
 }
 
 .btn-black {
@@ -70,6 +124,22 @@ body {
     padding: 1rem;
     margin: 1rem 0;
     background-color: #f9f9f9;
+}
+
+.card.static{
+    /* animation */
+        animation-name: slideRight;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease;
+}
+
+.card.dynamic{
+    /* animation */
+        animation-name: slideLeft;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease;
 }
 
 .services h3 span {
@@ -107,11 +177,21 @@ body {
 .team-member.blue {
     background-color: #dceeff;
     position: relative;
+    /* animation */
+        animation-name: slideRight;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease;
 }
 
 .team-member.yellow {
     background-color: #fff5d9;
     position: relative;
+    /* animation */
+        animation-name: slideLeft;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease;
 }
 
 .contact {
@@ -119,6 +199,11 @@ body {
     border: 1px solid black;
     border-radius: 5px;
     padding: 8px;
+    /* animation */
+        animation-name: slideUp;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease;
 }
 
 .contact form {

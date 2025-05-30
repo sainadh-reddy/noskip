@@ -1,0 +1,272 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+    /* animation */
+    animation-name: slideDown;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideRight {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.navbar .logo{
+    font-weight: bolder;
+    margin-left: 100px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar ul{
+    margin-right: 100px;
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.navbar ul a{
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 426px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .navbar .logo {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .navbar ul {
+        gap: 5px;
+    }
+    .intro{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .team {
+        display: flex;
+        flex-direction: column;
+        flex: 1 wrap;
+        margin-top: 50px;
+    }
+
+    .team-member {
+        position: relative;
+        padding: 1rem;
+        border-radius: 8px;
+        text-align: center;
+        padding-top: 50px;
+    }
+    
+    .team-member img {
+        position: absolute;
+        top: -40px;
+        left: 50px;
+        transform: translateX(-80%);
+            /* Centers the image horizontally */
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .team-member.yellow{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width:325px){
+    .team-member img{
+        position: absolute;
+        top: -40px;
+        left: 50%;
+        transform: translateX(-150%);
+    }
+}
+
+@media (max-width:375px) {
+    .team-member img {
+        position: absolute;
+        transform: translateX(-140px);
+    }
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.intro-text {
+    max-width: 70%;
+    /* animation */
+    animation-name: slideRight;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    /* animation */
+    animation-name: slideLeft;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+.btn-black {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    padding: 0.6rem 1rem;
+    border: none;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.services .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: #f9f9f9;
+}
+
+.card.static {
+    /* animation */
+    animation-name: slideRight;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+.card.dynamic {
+    /* animation */
+    animation-name: slideLeft;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+.services h3 span {
+    background: yellow;
+    border-radius: 50%;
+    padding: 0.3rem 0.7rem;
+    margin-right: 0.5rem;
+}
+
+.team {
+    display: flex;
+    gap: 1rem;
+    margin-top: 50px;
+}
+
+.team-member {
+    flex: 1;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: -40px;
+    left: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.team-member.blue {
+    background-color: #dceeff;
+    position: relative;
+    /* animation */
+    animation-name: slideRight;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+.team-member.yellow {
+    background-color: #fff5d9;
+    position: relative;
+    /* animation */
+    animation-name: slideLeft;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}

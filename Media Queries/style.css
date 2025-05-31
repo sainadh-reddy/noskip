@@ -135,19 +135,21 @@ body {
     }
 }
 
-@media (max-width:325px){
+@media (max-width:321px){
     .team-member img{
         position: absolute;
         top: -40px;
-        left: 50%;
-        transform: translateX(-150%);
+        left: 50px;
+        transform: translateX(-80%);
     }
 }
 
-@media (max-width:375px) {
+@media (max-width:376px) {
     .team-member img {
         position: absolute;
-        transform: translateX(-140px);
+        top: -40px;
+        left: 50%;
+        transform: translateX(-80px);
     }
 }
 
@@ -269,4 +271,51 @@ body {
     animation-duration: 3s;
     animation-iteration-count: 1;
     animation-timing-function: ease;
+}
+
+.contact {
+    margin-top: 2rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    /* animation */
+    animation-name: slideUp;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
+
+.contact form {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap: 0.7rem;
+}
+
+.contact .input {
+    display: flex;
+    width: 100%;
+}
+
+.input input {
+    width: 50%;
+    margin: 4px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.contact textarea {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.btn-purple {
+    background-color: #6c47ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.7rem 1rem;
+    cursor: pointer;
+    align-self: flex-start;
 }
